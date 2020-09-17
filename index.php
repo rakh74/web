@@ -1,0 +1,23 @@
+<?php
+	
+?>
+
+
+<html>
+<head>
+	<script src = "js/jquery-3.5.1.min.js"></script>
+	<script src = "js/FileSaver.js"></script>
+	<script src = "js/js.js"></script>
+	<link type = "text/css" rel = "stylesheet" href = "styles/stylesheet.css">
+</head>
+<body>
+
+
+	<div id = "mother">
+		<input id ="input" type = "text" value = "Click Edit" placeholder = "Write...">
+		<button id = "edit">Edit</button>
+	</div>
+	
+	
+</body>
+</html>

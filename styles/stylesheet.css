@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+
+
+#mother{
+	width: 300px;
+	height: 40px;
+	background:white;
+	border: solid black 2px;
+	margin: 100px auto;
+	padding:5px;
+	display:flex;
+	justify-content: space-between;
+}
+
+
+
+#input {
+	flex: 2 1 150px;
+	height: 100%;
+	background: white;
+	border:none;
+}
+
+
+#edit{
+	background:#01A9DB;
+	flex: 1 1 60px;
+	height: 100%;
+	border: none;
+	border-radius:3px;
+	color: white;
+	transition: background 0.3s linear;
+}
+
+#edit:hover{
+	background:#81BEF7;
+}
+
+
